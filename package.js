@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'babrahams:editable-text-wysiwyg',
-  summary: 'Extends the babrahams:editable-text package to include a wysiwyg editor',
-  version: '0.2.2',
-  git: 'https://github.com/jackadams/meteor-editable-text-wysiwyg.git'
+  name: 'babrahams:editable-text-wysiwyg-bootstrap-3',
+  summary: 'Extends the babrahams:editable-text package to include a wysiwyg editor that uses bootstrap-3',
+  version: '0.1.0',
+  git: 'https://github.com/jackadams/meteor-editable-text-wysiwyg-bootstrap-3.git'
 });
 
 Package.onUse(function(api) {
