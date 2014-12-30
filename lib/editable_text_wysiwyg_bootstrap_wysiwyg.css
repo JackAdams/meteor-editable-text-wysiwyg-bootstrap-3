@@ -1,0 +1,60 @@
+.wysiwyg {
+  min-height: 20px;
+  max-height: 250px;
+  background-color: white;
+  border-collapse: separate;
+  border: 1px solid rgb(204, 204, 204);
+  padding: 4px;
+  margin: 0;
+  box-sizing: content-box;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+  box-shadow: rgba(0, 0, 0, 0.0745098) 0px 1px 1px 0px inset;
+  border-top-right-radius: 3px; border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px; border-top-left-radius: 3px;
+  overflow: auto;
+  outline: none;
+}
+
+.wysiwyg-toolbar {
+  min-width:84px;
+}
+
+.dropdown-menu a {
+  cursor: pointer;
+}
+
+.wysiwyg-tools .btn-group:not(.dropdown-menu) {
+  margin-top: 2px;	
+}
+
+.wysiwyg-container {
+  padding: 0px 0px 2px 0px;
+  margin-bottom: 0px;
+  width: 99%;
+  border-radius: 3px;
+  padding: 2px;
+  border: 1px dashed #ccc;
+  background: #eee;
+  display: inline-block;
+}
+
+.wysiwyg ul, .wysiwyg-content ul {
+  list-style: disc inside none;
+}
+
+.wysiwyg a, .wysiwyg-content a {
+  text-decoration: underline;
+  color: #336699;
+}
+	
+.wysiwyg a:hover, .wysiwyg-content a:hover {
+  color: #6699cc;
+}
+
+.wysiwyg-container .btn-toolbar {
+  margin: 2px 0 0 0;	
+}
+
+.wysiwyg-container .btn-group + .btn-group {
+  margin-left: 2px;	
+}
