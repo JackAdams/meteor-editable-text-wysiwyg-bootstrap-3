@@ -23,6 +23,9 @@
   cursor: pointer;
 }
 
+.wysiwyg-tools .btn {	
+}
+
 .wysiwyg-tools .btn-group:not(.dropdown-menu) {
   margin-top: 2px;	
 }

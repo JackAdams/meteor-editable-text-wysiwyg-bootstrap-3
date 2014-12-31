@@ -18,9 +18,9 @@ Package.onUse(function(api) {
   api.use('ian:bootstrap-3', 'client');
   api.use('fortawesome:fontawesome@4.2.0', 'client');
   
-  api.add_files('lib/editable_text_wysiwyg_bootstrap_wysiwyg.css', 'client');
-  api.add_files('lib/editable_text_wysiwyg_bootstrap_wysiwyg.html', 'client');
-  api.add_files('lib/editable_text_wysiwyg_bootstrap_wysiwyg.js', 'client');
+  api.add_files('lib/editable_text_wysiwyg_bootstrap_3.css', 'client');
+  api.add_files('lib/editable_text_wysiwyg_bootstrap_3.html', 'client');
+  api.add_files('lib/editable_text_wysiwyg_bootstrap_3.js', 'client');
   
 });
 
