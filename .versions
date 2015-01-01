@@ -1,7 +1,7 @@
 application-configuration@1.0.4
-babrahams:editable-text@0.6.3
-babrahams:editable-text-wysiwyg@0.2.7
-babrahams:editable-text-wysiwyg-base@0.1.4
+babrahams:editable-text@0.6.4
+babrahams:editable-text-wysiwyg@0.2.8
+babrahams:editable-text-wysiwyg-base@0.1.5
 babrahams:editable-text-wysiwyg-bootstrap-3@0.1.5
 base64@1.0.2
 binary-heap@1.0.2
