@@ -7,6 +7,8 @@ Example app: [http://editable-text-demo.meteor.com](http://editable-text-demo.me
 
 Example app repo: [https://github.com/JackAdams/editable-text-demo](https://github.com/JackAdams/editable-text-demo)
 
+Minimal example app on meteorpad: [http://meteorpad.com/pad/2YdGJmZ9LthGZaLao/editable-text-wysiwyg-bootstrap-3](http://meteorpad.com/pad/2YdGJmZ9LthGZaLao/editable-text-wysiwyg-bootstrap-3)
+
 #### Quick Start
 
 	meteor add babrahams:editable-text-wysiwyg
