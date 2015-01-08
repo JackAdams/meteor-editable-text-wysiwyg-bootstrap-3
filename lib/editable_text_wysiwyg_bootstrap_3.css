@@ -65,3 +65,18 @@
 .wysiwyg-container .btn-group + .btn-group {
   margin-left: 2px;	
 }
+
+.wysiwyg-container .input-append {
+  padding: 5px 5px 2px 5px;
+  min-width: 202px;
+}
+
+.wysiwyg-container .input-append .btn {
+  padding: 0px 4px;
+  margin-bottom: 3px;
+  height: 28px;
+}
+
+.wysiwyg-container .input-append input {
+  width: 150px;	
+}
