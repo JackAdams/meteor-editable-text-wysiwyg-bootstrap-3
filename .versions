@@ -1,7 +1,7 @@
 application-configuration@1.0.4
-babrahams:editable-text@0.6.9
-babrahams:editable-text-wysiwyg@0.3.4
-babrahams:editable-text-wysiwyg-bootstrap-3@0.2.4
+babrahams:editable-text@0.7.0
+babrahams:editable-text-wysiwyg@0.4.0
+babrahams:editable-text-wysiwyg-bootstrap-3@0.3.0
 base64@1.0.2
 binary-heap@1.0.2
 blaze@2.0.4
@@ -22,7 +22,7 @@ ian:bootstrap-3@3.3.1
 id-map@1.0.2
 jquery@1.0.2
 json@1.0.2
-local-test:babrahams:editable-text-wysiwyg-bootstrap-3@0.2.4
+local-test:babrahams:editable-text-wysiwyg-bootstrap-3@0.3.0
 logging@1.0.6
 meteor@1.1.4
 minifiers@1.1.3
