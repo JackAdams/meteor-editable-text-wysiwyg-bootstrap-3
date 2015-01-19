@@ -11,7 +11,7 @@ Minimal example app on meteorpad: [http://meteorpad.com/pad/2YdGJmZ9LthGZaLao/ed
 
 #### Quick Start
 
-	meteor add babrahams:editable-text-wysiwyg
+	meteor add babrahams:editable-text-wysiwyg-bootstrap-3
 
 You can then drop an editable text widget into any Blaze template with `wysiwyg=true`:
 
