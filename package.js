@@ -16,8 +16,8 @@ Package.onUse(function(api) {
   api.use('blaze', 'client');
   api.use('spacebars', 'client');
   api.use('jquery', 'client');
-  api.use('ian:bootstrap-3@3.3.1', 'client');
-  api.use('fortawesome:fontawesome@4.2.0', 'client');
+  //api.use('ian:bootstrap-3@3.3.1', 'client');
+  //api.use('fortawesome:fontawesome@4.2.0', 'client');
   
   api.add_files('lib/editable_text_wysiwyg_bootstrap_3.css', 'client');
   api.add_files('lib/editable_text_wysiwyg_bootstrap_3.html', 'client');
