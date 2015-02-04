@@ -16,7 +16,7 @@ If you project does not already use bootstrap-3 and fontawesome:
 	meteor add fortawesome:fontawesome
     meteor add twbs:bootstrap
 
-This package requires fontawesome and bootstrap to work, but the choice of pagckage is left to the individual. Once those are included in your project:
+This package requires fontawesome and bootstrap-3 to work, but the choice of the particular fontawesome and bootstrap-3 packages is left to the individual. Once those are included in your project:
 
 	meteor add babrahams:editable-text-wysiwyg-bootstrap-3
 
