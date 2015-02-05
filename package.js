@@ -16,7 +16,7 @@ Package.onUse(function(api) {
   api.use('blaze', 'client');
   api.use('spacebars', 'client');
   api.use('jquery', 'client');
-  api.use(['twbs:bootstrap-noglyph','twbs:bootstrap@3.3.1', 'nemo64:bootstrap@3.3.1_1'], 'client', {weak: true});
+  api.use(['twbs:bootstrap-noglyph@3.3.1','twbs:bootstrap@3.3.1', 'nemo64:bootstrap@3.3.1_1'], 'client', {weak: true});
   api.use('fortawesome:fontawesome@4.2.0', 'client', {weak: true});
   
   api.add_files('lib/editable_text_wysiwyg_bootstrap_3.css', 'client');
