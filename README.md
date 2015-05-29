@@ -40,4 +40,6 @@ where `singlePostDocument` can be a single post document already set in the curr
 
 #### Documentation
 
+If you have `wysiwyg=true`, you can also set `toolbarPosition=top` (instead of the default which is at the bottom) and `showToolbar=true` (instead of the default where the toolbar is initially concealed).
+
 Read the [full documentation](https://github.com/JackAdams/meteor-editable-text#editable-text-for-meteor) for the `babrahams:editable-text` package at [https://github.com/JackAdams/meteor-editable-text](https://github.com/JackAdams/meteor-editable-text).
