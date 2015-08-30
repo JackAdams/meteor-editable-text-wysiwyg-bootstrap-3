@@ -80,3 +80,11 @@
 .wysiwyg-container .input-append input {
   width: 150px;    
 }
+
+.wysiwyg sup {
+  vertical-align: super !important;	
+}
+
+.wysiwyg sub {
+  vertical-align: sub !important;	
+}
