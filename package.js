@@ -1,7 +1,7 @@
 Package.describe({
   name: 'babrahams:editable-text-wysiwyg-bootstrap-3',
   summary: 'Extends the babrahams:editable-text package to include a wysiwyg editor that uses bootstrap-3',
-  version: '0.5.5',
+  version: '0.5.6',
   git: 'https://github.com/jackadams/meteor-editable-text-wysiwyg-bootstrap-3.git'
 });
 
@@ -9,9 +9,9 @@ Package.onUse(function(api) {
   
   api.versionsFrom('1.0');
   
-  api.use('babrahams:editable-text@0.8.5', ['client','server']);
+  api.use('babrahams:editable-text@0.8.6', ['client','server']);
   api.imply('babrahams:editable-text');
-  api.use('babrahams:editable-text-wysiwyg@0.5.5', 'client');
+  api.use('babrahams:editable-text-wysiwyg@0.5.6', 'client');
   api.use('templating', 'client');
   api.use('blaze', 'client');
   api.use('spacebars', 'client');
