@@ -3,7 +3,7 @@ WYSIWYG extension for babrahams:editable-text package
 
 This package provides a wysiwyg widget for editing text in-place. It is for apps that use bootstrap-3.
 
-Example app: [http://editable-text-demo.meteor.com](http://editable-text-demo.meteor.com)
+Example app: [http://editable-text-demo.taonova.com](http://editable-text-demo.taonova.com)
 
 Example app repo: [https://github.com/JackAdams/editable-text-demo](https://github.com/JackAdams/editable-text-demo)
 
