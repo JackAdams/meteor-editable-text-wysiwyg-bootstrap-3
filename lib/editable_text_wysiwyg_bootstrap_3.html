@@ -38,6 +38,12 @@
         </ul>
       </div>
       <div class="btn-group">
+        <a class="btn dropdown-toggle" data-toggle="dropdown" title="Color"><i class="fa fa-paint-brush"></i>&nbsp;<b class="caret"></b></a>
+        <div class="dropdown-menu">
+          {{#each colors}}<a data-edit="forecolor {{code}}"><i class="fa fa-square et-wysiwyg-color" style="color: {{code}}; margin-left: 5px;"></i></a>{{/each}}
+        </div>
+      </div>
+      <div class="btn-group">
         <a class="btn btn-default" data-edit="superscript" title="Superscript"><i class="fa fa-superscript"></i></a>
         <a class="btn btn-default" data-edit="subscript" title="Subscript"><i class="fa fa-subscript"></i></a>
       </div>
@@ -62,7 +68,7 @@
       <div class="btn-group">
         <a class="btn btn-default dropdown-toggle add-url-trigger" data-toggle="dropdown" title="Hyperlink"><i class="fa fa-link"></i></a>
         <div class="dropdown-menu input-append">
-          <input class="span2" placeholder="URL" type="text" data-edit="createLink"/>
+          <input class="span2" placeholder="URL" type="text" data-edit="createlink"/>
           <button class="btn btn-default" type="button">Add</button>
         </div>
         <a class="btn btn-default" data-edit="unlink" title="Remove Hyperlink"><i class="fa fa-unlink"></i></a>

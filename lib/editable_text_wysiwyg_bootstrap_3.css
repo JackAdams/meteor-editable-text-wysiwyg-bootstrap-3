@@ -88,3 +88,8 @@
 .wysiwyg sub {
   vertical-align: sub !important;	
 }
+
+.et-wysiwyg-color:hover {
+  background: #000 !important;
+  border-radius: 3px !important;
+}
