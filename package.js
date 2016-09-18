@@ -11,7 +11,7 @@ Package.onUse(function(api) {
   
   api.use('babrahams:editable-text@0.8.24', ['client', 'server']);
   api.imply('babrahams:editable-text');
-  api.use('babrahams:editable-text-wysiwyg@0.5.24', 'client');
+  api.use('babrahams:editable-text-wysiwyg@0.5.25', 'client');
   api.use('templating', 'client');
   api.use('blaze', 'client');
   api.use('spacebars', 'client');
