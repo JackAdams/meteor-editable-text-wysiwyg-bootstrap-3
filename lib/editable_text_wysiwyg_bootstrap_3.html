@@ -1,4 +1,4 @@
-<template name="wysiwyg">
+<template name="wysiwyg_toolbar">
   <div class="btn-toolbar wysiwyg-toolbar">
     <div style="float:right;" class="btn-group">
       <a class="btn btn-default wysiwyg-save-button" data-edit="save" title="Save"><i class="fa fa-save"></i></a>
@@ -38,7 +38,7 @@
         </ul>
       </div>
       <div class="btn-group">
-        <a class="btn dropdown-toggle" data-toggle="dropdown" title="Color"><i class="fa fa-paint-brush"></i>&nbsp;<b class="caret"></b></a>
+        <a class="btn btn-default dropdown-toggle" data-toggle="dropdown" title="Color"><i class="fa fa-paint-brush"></i>&nbsp;<b class="caret"></b></a>
         <div class="dropdown-menu">
           {{#each colors}}<a data-edit="forecolor {{code}}"><i class="fa fa-square et-wysiwyg-color" style="color: {{code}}; margin-left: 5px;"></i></a>{{/each}}
         </div>
@@ -85,6 +85,9 @@
       <div class="btn-group">
         <a class="btn btn-default" data-edit="undo" title="Undo (Ctrl/Cmd+Z)"><i class="fa fa-undo"></i></a>
         <a class="btn btn-default" data-edit="redo" title="Redo (Ctrl/Cmd+Y)"><i class="fa fa-repeat"></i></a>
+      </div>
+      <div class="btn-group">
+        <a class="btn btn-default wysiwyg-edit-html" title="Show HTML"><i class="fa fa-code"></i></a>
       </div>
     </div>
   </div>
