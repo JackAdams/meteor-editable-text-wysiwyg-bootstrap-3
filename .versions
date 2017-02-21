@@ -1,9 +1,9 @@
 allow-deny@1.0.5
 babel-compiler@6.8.5
 babel-runtime@0.1.9_1
-babrahams:editable-text@0.9.1
-babrahams:editable-text-wysiwyg@0.6.1
-babrahams:editable-text-wysiwyg-bootstrap-3@0.6.1
+babrahams:editable-text@0.9.2
+babrahams:editable-text-wysiwyg@0.6.2
+babrahams:editable-text-wysiwyg-bootstrap-3@0.6.2
 base64@1.0.9
 binary-heap@1.0.9
 blaze@2.1.8
@@ -30,7 +30,7 @@ htmljs@1.0.10
 id-map@1.0.8
 jquery@1.11.9
 lai:collection-extensions@0.2.1_1
-local-test:babrahams:editable-text-wysiwyg-bootstrap-3@0.6.1
+local-test:babrahams:editable-text-wysiwyg-bootstrap-3@0.6.2
 logging@1.0.14
 meteor@1.1.16
 minifier-js@1.1.13
