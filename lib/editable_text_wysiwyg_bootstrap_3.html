@@ -3,6 +3,17 @@
     <div style="float:right;" class="btn-group">
       <a class="btn btn-default wysiwyg-save-button" data-edit="save" title="Save"><i class="fa fa-save"></i></a>
     </div>
+    {{#unless editingHTML}}
+      {{#each customButtons 'top'}}
+        {{#if showButton}}
+          {{#with button=this editor=..}}
+            <div style="float:right;" class="btn-group">
+              <a class="btn btn-default {{button.buttonClass}} custom-wysiwyg-button" title="{{button.title}}"><i class="{{button.iconClass}}"></i></a>
+            </div>
+          {{/with}}
+        {{/if}}
+      {{/each}}
+    {{/unless}}
     <div class="btn-group" style="margin-left:0px;">
       <a class="btn btn-default wysiwyg-tools-button" title="{{#if showToolbar}}Hide tools{{else}}Show tools{{/if}}"><i class="fa {{#if showToolbar}}fa-caret-down{{else}}fa-caret-right{{/if}}"></i></a>
     </div>
@@ -81,8 +92,9 @@
         <!--<div class="btn-group">
           <a class="btn btn-default" title="Insert picture (or just drag & drop)" id="pictureBtn"><i class="fa fa-picture-o"></i></a>
           <input type="file" data-role="magic-overlay" data-target="#pictureBtn" data-edit="insertImage" />
-        </div>
-        <div class="btn-group">
+        </div>-->
+        
+        <!--<div class="btn-group">
           <a class="btn btn-default" title="Insert table" id="tableBtn"><i class="fa fa-table"></i></a>
         </div>-->
         
@@ -90,6 +102,15 @@
           <a class="btn btn-default" data-edit="undo" title="Undo (Ctrl/Cmd+Z)"><i class="fa fa-undo"></i></a>
           <a class="btn btn-default" data-edit="redo" title="Redo (Ctrl/Cmd+Y)"><i class="fa fa-repeat"></i></a>
         </div>
+        {{#each customButtons 'toolbar'}}
+          {{#if showButton}}
+            {{#with button=this editor=..}}
+              <div class="btn-group">
+                <a class="btn btn-default {{button.buttonClass}} custom-wysiwyg-button" title="{{button.title}}"><i class="{{button.iconClass}}"></i></a>
+              </div>
+            {{/with}}
+          {{/if}}
+        {{/each}}
       {{/unless}}
     </div>
   </div>

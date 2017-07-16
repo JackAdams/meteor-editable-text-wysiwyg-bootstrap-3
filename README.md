@@ -11,7 +11,7 @@ Minimal example app on meteorpad: [http://meteorpad.com/pad/2YdGJmZ9LthGZaLao/ed
 
 #### Quick Start
 
-If you project does not already use bootstrap-3 and fontawesome:
+If your project does not already use bootstrap-3 and fontawesome:
 
 	meteor add fortawesome:fontawesome
     meteor add twbs:bootstrap-noglyph
