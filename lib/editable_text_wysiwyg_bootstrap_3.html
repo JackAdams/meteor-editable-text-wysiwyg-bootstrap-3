@@ -8,7 +8,9 @@
         {{#if showButton}}
           {{#with button=this editor=..}}
             <div style="float:right;" class="btn-group">
-              <a class="btn btn-default {{button.buttonClass}} custom-wysiwyg-button" title="{{button.title}}"><i class="{{button.iconClass}}"></i></a>
+              <a class="btn btn-default {{button.buttonClass}} custom-wysiwyg-button" title="{{button.title}}">
+                {{#if button.iconImage}}<img src="{{button.iconImage}}" width="16" height="16" />{{else}}<i class="{{button.iconClass}}"></i>{{/if}}
+              </a>
             </div>
           {{/with}}
         {{/if}}
@@ -106,7 +108,9 @@
           {{#if showButton}}
             {{#with button=this editor=..}}
               <div class="btn-group">
-                <a class="btn btn-default {{button.buttonClass}} custom-wysiwyg-button" title="{{button.title}}"><i class="{{button.iconClass}}"></i></a>
+                <a class="btn btn-default {{button.buttonClass}} custom-wysiwyg-button" title="{{button.title}}">
+                  {{#if button.iconImage}}<img src="{{button.iconImage}}" width="16" height="16" />{{else}}<i class="{{button.iconClass}}"></i>{{/if}}
+                </a>
               </div>
             {{/with}}
           {{/if}}
