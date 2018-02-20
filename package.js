@@ -9,7 +9,7 @@ Package.onUse(function(api) {
   
   api.versionsFrom('1.0');
   
-  api.use('babrahams:editable-text@0.9.8', ['client', 'server']);
+  api.use('babrahams:editable-text@0.9.9', ['client', 'server']);
   api.imply('babrahams:editable-text');
   api.use('babrahams:editable-text-wysiwyg@0.6.12', 'client');
   api.use('templating', 'client');
